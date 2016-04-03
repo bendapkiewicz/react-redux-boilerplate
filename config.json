@@ -1,0 +1,14 @@
+{
+	"env": "local",
+	"protocol": "http",
+	"request": {
+        "httpTimeout": 60000, "//": "1 min in milliseconds"
+    },
+    "services": {
+    	"port": 9010,
+    	"originWhiteList": [
+    	]
+    },
+    "utils": {
+    }
+}
